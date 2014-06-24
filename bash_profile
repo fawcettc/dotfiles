@@ -1,6 +1,3 @@
-export PATH=~/bin:~/Documents/software/installed/bin:$PATH
-export LD_LIBRARY_PATH=~/Documents/software/installed/lib:$LD_LIBRARY_PATH
-
 export LC_ALL=en_CA.UTF-8
 
 export EDITOR=vim
