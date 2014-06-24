@@ -1,5 +1,6 @@
 export LC_ALL=en_CA.UTF-8
 
+export PLATFORM=$(uname -s)
 export EDITOR=vim
 
 if [ -x /usr/bin/dircolors ]; then
