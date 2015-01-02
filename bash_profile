@@ -11,8 +11,11 @@ elif [ "$PLATFORM" = Darwin ]; then
     alias ls='ls -G'
 fi
 
+# tmuxinator completion
+[ -e ~/dotfiles/completions/tmuxinator.bash ] && source ~/dotfiles/completions/tmuxinator.bash
+
 # git completion
-[ -e ~/dotfiles/git-completion.bash ] && source ~/dotfiles/git-completion.bash
+[ -e ~/dotfiles/completions/git-completion.bash ] && source ~/dotfiles/completions/git-completion.bash
 
 # git-prompt
 [ -e ~/dotfiles/git-prompt.sh ] && source ~/dotfiles/git-prompt.sh
